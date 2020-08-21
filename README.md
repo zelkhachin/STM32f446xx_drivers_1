@@ -1,4 +1,4 @@
-## stm32f4xx_drivers
+## STM32f446xx_drivers_1
 
 Lab assignments from [Udemy](https://www.udemy.com/share/100F3uBkcacF1XR3o=/?xref=E0QfcF9RQH4HSWUuAAcqP1kSWSRM) course [MCU1](https://www.udemy.com/share/101rCkBkcacF1XR3o=/) by [FastBit Embedded Brain Academy](http://fastbitlab.com/). Contains source coude for all exercises done during course, tested and adjusted for [Nucleo-F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) board.
 
@@ -10,15 +10,15 @@ For this assignments [Nucleo-F446RE](https://www.st.com/en/evaluation-tools/nucl
 Src folder contains Tests, which covers every major impelmenetation (GPIO, I2C, SPI, USART, IRQ, ...)
 Inside Test folder, there are Arduino sketches which are used for communication testing.
 
-## Setup Installation - Linux Mint 19.3
-* ##### GCC Toolchain installation (v7.5.0)
+## Setup Installation - Linux Mint 20.0  
+* ##### GCC Toolchain installation (v10.2.0)
   * `$ gcc -v     // check C compiler is installed or not` 
    &nbsp;
    
   * Open terminal and type following command to install GCC\
   `$ sudo apt-get install gcc`
   
-* ##### STM32Cube IDE installation (v1.3.0)
+* ##### STM32Cube IDE installation (v1.4.0)
   * [Download installation for Linux](https://www.st.com/en/development-tools/stm32cubeide.html) (Debian Linux Installer)
   * Navigate to downloads folder and run following command in terminal\
   `sudo chmod +x script-name-here.sh` This command will set execute permission on installation script.
@@ -34,7 +34,7 @@ Inside Test folder, there are Arduino sketches which are used for communication 
   * `Floating-point unit: None`
   * `Floating-point ABI: Software implementation ( -mfloat-abi=soft )`
 
-* ##### Installing GIT (v2.7.1)
+* ##### Installing GIT (v2.28.0)
   * Install Git using apt-get:\
    `$ sudo apt-get update`\
    `$ sudo apt-get install git`
