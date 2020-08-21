@@ -126,4 +126,4 @@ In `SWV ITM Data Console Settings` in section `ITM Stimulus Ports` enable port 0
 Pull requests are welcome. If you discover any bug/issue feel free to report it.
 
 ## License
-[MIT](https://github.com/nemanjadjekic/stm32f446xx_drivers/blob/master/LICENSE)
+[MIT](https://github.com/zelkhachin/STM32f446xx_drivers_1/blob/master/LICENSE)
